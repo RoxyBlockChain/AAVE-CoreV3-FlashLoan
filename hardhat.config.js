@@ -5,7 +5,7 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.10",
   networks:{
-    goerli:{
+    sepoila:{
       url: process.env.INFURA_API_ENDPOINT,
       accounts: [process.env.PRIVATE_KEY],
     },    
